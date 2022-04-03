@@ -5,9 +5,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-/**
- * @author Rasung Ki
- */
 fun main() {
     // launch : 자신을 호출한 쓰레드를 blocking 하지 않음
     GlobalScope.launch {
